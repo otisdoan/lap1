@@ -6,9 +6,11 @@ function Login() {
   return (
     <>
       <div className="flex">
-        <div className="w-[60%] px-[250px] pt-[50px]">
+        <div className="w-[60%] px-[250px] py-[50px]">
           <h1 className="text-[1.3rem] font-bold mb-[40px]">Get Started Now</h1>
-          <Form />
+          <div className="w-[100%]">
+            <Form />
+          </div>
           <div className="flex items-center justify-center">
             <div className="border-t-[1px] border-blacks w-[100%]"></div>
             <span className="text-[0.7rem] font-bold">Or</span>
@@ -17,7 +19,7 @@ function Login() {
           <Accounts />
         </div>
         <div className="w-[40%] flex">
-          <img src={loginImage} alt="picture" className="h-screen justify-self w-[100%]"/>
+          <img src={loginImage} alt="picture" className="h-screen justify-self w-[100%]" />
         </div>
       </div>
     </>

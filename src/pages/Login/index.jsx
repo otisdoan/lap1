@@ -5,8 +5,8 @@ import loginImage from '../../assets/images/login.jpg';
 function Login() {
   return (
     <>
-      <div className="flex">
-        <div className="w-[60%] px-[250px] py-[50px]">
+      <div className="flex items-center justify-center h-[100%]">
+        <div className="w-[60%] px-[250px] py-[6rem]">
           <h1 className="text-[1.3rem] font-bold mb-[40px]">Get Started Now</h1>
           <div className="w-[100%]">
             <Form />

@@ -4,9 +4,8 @@ import "./Login.scss";
 import loginImage from '../../assets/images/login.jpg';
 function Login() {
   return (
-    <>
-      <div className="flex items-center justify-center h-[100%]">
-        <div className="w-[60%] px-[250px] py-[6rem]">
+      <div className="flex h-[100%] max-w-[100%] container">
+        <div className="w-[60%] px-[250px] py-[20px] border-solid flex flex-col justify-center h-[100vh]">
           <h1 className="text-[1.3rem] font-bold mb-[40px]">Get Started Now</h1>
           <div className="w-[100%]">
             <Form />
@@ -18,11 +17,10 @@ function Login() {
           </div>
           <Accounts />
         </div>
-        <div className="w-[40%] flex">
-          <img src={loginImage} alt="picture" className="h-screen justify-self w-[100%]" />
+        <div className="w-[40%] flex flex-col">
+          <img src={loginImage} alt="picture" className="h-[100vh] w-[100%] justify-end" />
         </div>
       </div>
-    </>
   )
 }
 export default Login;

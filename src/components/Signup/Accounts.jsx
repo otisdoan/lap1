@@ -3,12 +3,12 @@ import { FaApple } from "react-icons/fa";
 function Accounts() {
   return (
     <>
-      <div className="flex justify-between mt-[60px] mb-[20px] w-[100%]">
-        <button className="flex items-center justify-center border-[#ddd] border-[1px] p-[5px] rounded-[10px] px-[10px] w-[100%] mr-[20px] hover:bg-[#3a5b22] hover:text-white">
+      <div className="flex justify-between mt-[60px] mb-[20px] w-[100%] gap-x-[1rem]">
+        <button className="flex items-center justify-center border-[#ddd] border-[1px] p-[5px] rounded-[10px] px-[10px] w-[50%] hover:bg-[#3a5b22] hover:text-white">
           <FaGoogle />
           <p className="ml-[5px]">Sign in with Google</p>
         </button>
-        <button className="flex items-center justify-center border-[#ddd] border-[1px] p-[5px] rounded-[10px] px-[20px] w-[100%] hover:bg-[#3a5b22] hover:text-white">
+        <button className="flex items-center justify-center border-[#ddd] border-[1px] p-[5px] rounded-[10px] px-[20px] w-[50%] hover:bg-[#3a5b22] hover:text-white">
           <FaApple />
           <p className="ml-[5px]">Sign in with Apple</p>
         </button>
